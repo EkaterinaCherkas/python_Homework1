@@ -15,3 +15,27 @@ if sum1 == sum2:
     print("yes")
 else:
     print("no")
+
+#Решение 2
+num = input("Write six-digit number: ")
+if len(num) == 6:
+    if(int(num[0]) + int(num[1]) + int(num[2])) == (int(num[3]) + int(num[4]) + int(num[5])):
+        print("happy ticket! ")
+    else:
+        print("error,your ticket not happy")
+else:
+    print("write correct number, repeat please")
+
+#Решение 3
+num = input("Write six-digit number: ")
+a = num//100000
+b = num//10000%10
+c = num//1000%10
+d = num%1000//100
+e = num%100//10
+f = num%10
+
+if a + b + c == d+e+f:
+    print("yes")
+else:
+    print("no")
