@@ -5,7 +5,7 @@
 
 i = input("Write three-digit number: ")
 sum = int(i[0]) + int(i[1]) + int(i[2])
-print(sum)
+print(sum) 
 
 # i = int(input("Write three-digit number: "))
 # a = int(i/100)
